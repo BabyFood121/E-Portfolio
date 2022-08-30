@@ -80,130 +80,236 @@
         </div>
       </header>
       <button class="mail__btn click">
-          <i class="fas fa-envelope"></i>
-        </button>
-        <a href="#projects" class="scroll">
-            <div class="scroll__icon click"></div>
-        </a>
-        <div class="modal">
-            <div class="modal__half modal__about">Here's a bit about me</div>
-            <div class="modal__half modal__contact">Let's have a chat</div>
+        <i class="fas fa-envelope"></i>
+      </button>
+      <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+      <div class="motal">
+        <div class="motal__half motal__about">
+          <h3 class="motal__title motal__title--about">
+            Here's a bit about me.
+          </h3>
+          <h4 class="motal__subtitle motal__subtitle--about">
+            Frontend Software Engineer
+          </h4>
+          <p class="motal__para">
+            I'm a 16 year-old
+            <b class="purp">Frontend software engineer</b> with a strong passion
+            for developing websites with an
+            <b class="purp"> easy to use interface,</b> and a great
+            <b class="purp">user experience.</b>
+            <br />
+            I currently work on extremely difficult engineering properties and
+            learn from a team consisting of some of the most
+            <b class="purp">talented</b> and
+            <b class="purp">experienced</b> software enfgineers everyday.
+          </p>
+          <div class="motal__languages">
+            <figure class="motal__language">
+              <img
+                class="motal__language--img"
+                src="./assets/html.png"
+                alt=""
+              />
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="motal__language">
+              <img class="motal__language--img" src="./assets/css.png" alt="" />
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="motal__language">
+              <img
+                class="motal__language--img"
+                src="./assets/html.png"
+                alt=""
+              />
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="motal__language">
+              <img
+                class="motal__language--img"
+                src="./assets/html.png"
+                alt=""
+              />
+              <span class="language__name">HTML</span>
+            </figure>
+          </div>
         </div>
+        <div class="motal__half motal__contact">
+          <h3 class="motal__title motal__title--contact">Let's have a chat!</h3>
+          <h4 class="motal__subtitle motal__subtitle--cantact">
+            I'm currently open to new oppertunities
+          </h4>
+          <form action="" id="contact__form">
+            <div class="form__item">
+                <label class="form__item--label" >Name</label>
+                <input type="text" class="input" name="user_name" required></input>
+            </div>
+            <div class="form__item">
+                <label class="form__item--label" >E-mail</label>
+                <input type="email" class="input" name="user_name" required></input>
+            </div>
+            <div class="form__item">
+                <label class="form__item--label" >Message</label>
+                <textarea type="text" class="input" name="user_name" required></textarea>
+            </div>
+            <button id="contact__submit" class="form__submit">Send it my way</button>
+          </form>
+          <div class="modal__overlay modal__overlay--loading">
+            <i class="fas fa-spinner"></i>
+          </div>
+          <div class="modal__overlay modal__overylay--success">
+            Thanks for the message! Looking forward to speaking with you soon.
+          </div>
+        </div>
+        <i class="fas fa-times modal__exit click"></i>
+      </div>
     </section>
     <section id="projects">
-        <div class="container">
-            <div class="row">
-                <h1 class="section__title">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
             Here are some of my <span class="purp">Projects</span>
-        </h1>
-        <ul class="project__list">
-                <li class="project">
-                    <div class="project__wrapper">
-                    <img src="./assets/blinker mockup.png" alt="" class="project__img"/>
-                        <div class="project__wrapper--bg"></div>
-                        <div class="project__description">
-                            <h3 class="project__description--title">
-                                Car Sales Projects
-                            </h3>
-                            <h4 class="project__description--sub-title">
-                                Html, CSS, JavaScript,
-                            </h4>
-                            <p class="project__description--para">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nobis blanditiis voluptate accusantium qui, dicta animi
-                                ipsum nihil rem incidunt rerum velit nostrum amet doloremque
-                                ab omnis, harum sit cumque eveniet.
-                            </p>
-                            <div class="project__Description--links">
-                                <a href="#" class="project__description--link"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project__description--link"><i class="fa-solid fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="project">
-                    <div class="project__wrapper">
-                    <img src="./assets/blinker mockup.png" alt="" class="project__img"/>
-                        <div class="project__wrapper--bg"></div>
-                        <div class="project__description">
-                            <h3 class="project__description--title">
-                                Car Sales Projects
-                            </h3>
-                            <h4 class="project__description--sub-title">
-                                Html, CSS, JavaScript,
-                            </h4>
-                            <p class="project__description--para">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nobis blanditiis voluptate accusantium qui, dicta animi
-                                ipsum nihil rem incidunt rerum velit nostrum amet doloremque
-                                ab omnis, harum sit cumque eveniet.
-                            </p>
-                            <div class="project__Description--links">
-                                <a href="#" class="project__description--link"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project__description--link"><i class="fa-solid fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="project">
-                    <div class="project__wrapper">
-                    <img src="./assets/blinker mockup.png" alt="" class="project__img"/>
-                        <div class="project__wrapper--bg"></div>
-                        <div class="project__description">
-                            <h3 class="project__description--title">
-                                Car Sales Projects
-                            </h3>
-                            <h4 class="project__description--sub-title">
-                                Html, CSS, JavaScript,
-                            </h4>
-                            <p class="project__description--para">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nobis blanditiis voluptate accusantium qui, dicta animi
-                                ipsum nihil rem incidunt rerum velit nostrum amet doloremque
-                                ab omnis, harum sit cumque eveniet.
-                            </p>
-                            <div class="project__Description--links">
-                                <a href="#" class="project__description--link"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project__description--link"><i class="fa-solid fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blinker mockup.png"
+                  alt=""
+                  class="project__img"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Sales Projects
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript,
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis blanditiis voluptate accusantium qui, dicta animi
+                    ipsum nihil rem incidunt rerum velit nostrum amet doloremque
+                    ab omnis, harum sit cumque eveniet.
+                  </p>
+                  <div class="project__Description--links">
+                    <a href="#" class="project__description--link"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-solid fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blinker mockup.png"
+                  alt=""
+                  class="project__img"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Sales Projects
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript,
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis blanditiis voluptate accusantium qui, dicta animi
+                    ipsum nihil rem incidunt rerum velit nostrum amet doloremque
+                    ab omnis, harum sit cumque eveniet.
+                  </p>
+                  <div class="project__Description--links">
+                    <a href="#" class="project__description--link"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-solid fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blinker mockup.png"
+                  alt=""
+                  class="project__img"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Sales Projects
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript,
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis blanditiis voluptate accusantium qui, dicta animi
+                    ipsum nihil rem incidunt rerum velit nostrum amet doloremque
+                    ab omnis, harum sit cumque eveniet.
+                  </p>
+                  <div class="project__Description--links">
+                    <a href="#" class="project__description--link"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                    <a href="#" class="project__description--link"
+                      ><i class="fa-solid fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-    </div>
-</section>
-<footer>
-    <div class="container">
+      </div>
+    </section>
+    <footer>
+      <div class="container">
         <div class="row footer__row">
-        <figure>
-            <img src="./assets/logo_size-removebg-preview.png" class="footer__logo--img" alt="">
-        </figure>
-        <div class="footer__social--list">
-            <a href="" class="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white"
-            >GitHub</a>
-            <a href="" class="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white"
-            >Linkedin</a>
-            <a href="" class="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white"
-            >Email</a>
-            <a href="" class="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white"
-            >Resume</a>
+          <figure>
+            <img
+              src="./assets/logo_size-removebg-preview.png"
+              class="footer__logo--img"
+              alt=""
+            />
+          </figure>
+          <div class="footer__social--list">
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >GitHub</a
+            >
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >Linkedin</a
+            >
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >Email</a
+            >
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >Resume</a
+            >
+          </div>
+          <div class="footer__copyright">
+            Copyright &copy; 2022 Made by Alex Nicholas
+          </div>
         </div>
-        <div class="footer__copyright">Copyright &copy; 2022 Made by Alex Nicholas</div>
-    </div>
-    </div>
-</footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
