@@ -12,12 +12,12 @@
     ></script>
     <script src="app.js"></script>
     <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script type="text/javascript">
-   (function(){
-      emailjs.init("c5oWTSKw5U5MVDbgi");
-   })();
+(function(){
+  emailjs.init("c5oWTSKw5U5MVDbgi");
+})();
 </script>
   </head>
   <body>
@@ -31,7 +31,7 @@
           />
         </figure>
         <ul class="nav__link--list">
-          <li class="nav__link">
+          <li  class="nav__link" onclick="toggleModal()">
             <a
               href="#"
               class="nav__link--anchor
@@ -42,7 +42,7 @@
           </li>
           <li class="nav__link">
             <a
-              href="#"
+              href="#projects"
               class="nav__link--anchor
                link__hover-effect
                 link__hover-effect--black"
@@ -55,8 +55,7 @@
               class="nav__link--anchor
                link__hover-effect
                 link__hover-effect--black"
-              >Contact</a
-            >
+              >Contact</a>
           </li>
           <li class="nav__link">
             <a
@@ -96,9 +95,11 @@
           </div>
         </div>
       </header>
-      <button class="mail__btn click" onclick="toggleModal()">
-        <i class="fas fa-envelope"></i>
-      </button>
+      <a href="#">
+        <button class="mail__btn click" onclick="toggleModal()">
+          <i class="fas fa-envelope"></i>
+        </button>
+      </a>
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
@@ -167,11 +168,11 @@
             </div>
             <div class="form__item">
                 <label class="form__item--label" >E-mail</label>
-                <input type="email" class="input" name="user_name" ></input>
+                <input type="email" class="input" name="user_email" ></input>
             </div>
             <div class="form__item">
                 <label class="form__item--label" >Message</label>
-                <textarea type="text" class="input" name="user_name" ></textarea>
+                <textarea type="text" class="input" name="message" ></textarea>
             </div>
             <button id="contact__submit" class="form__submit">Send it my way</button>
           </form>
@@ -312,21 +313,21 @@
           </figure>
           <div class="footer__social--list">
             <a
-              href=""
+              href="https://github.com/BabyFood121"
               class="footer__social--link
                link__hover-effect
-                link__hover-effect--white"
+                link__hover-effect--white" target="_blank"
               >GitHub</a
             >
             <a
-              href=""
+              href="" target="_blank"
               class="footer__social--link
                link__hover-effect
                 link__hover-effect--white"
               >Linkedin</a
             >
             <a
-              href=""
+              href="#"
               class="footer__social--link
                link__hover-effect
                 link__hover-effect--white"
@@ -334,7 +335,7 @@
               >Email</a
             >
             <a
-              href=""
+              href="" target="_blank"
               class="footer__social--link
                link__hover-effect
               link__hover-effect--white"

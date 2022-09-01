@@ -23,6 +23,8 @@ function toggleContrast() {
     )
 }
 
+// template_0pis0gl   service_hp74wta     c5oWTSKw5U5MVDbgi
+
 function contact(event) {
   event.preventDefault();
   const loading = document.querySelector(".modal__overlay--loading");
@@ -31,7 +33,7 @@ function contact(event) {
   emailjs
     .sendForm(
       "service_hp74wta",
-      "template_0etz5a2",
+      "template_0pis0gl",
       event.target,
       "c5oWTSKw5U5MVDbgi"
     )
